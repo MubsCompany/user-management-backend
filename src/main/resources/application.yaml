@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: user-management-backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: PasswordKuat123!
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
