@@ -11,6 +11,7 @@ pipeline {
 
         stage('Build Spring Boot') {
             steps {
+                sh 'chmod +x mvnw'
                 sh './mvnw clean package -DskipTests'
             }
         }
